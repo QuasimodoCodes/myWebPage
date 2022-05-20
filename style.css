@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+   /* Flexbox stuff */
+   display: flex;
+   justify-content: top left;
+   align-items: left;
+
+   /* Text styles */
+   text-align: center;
+   color: rgb(0, 0, 0); 
+
+    /* Background styles */
+    background-image: url(https://i.imgur.com/5A9hdys.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    /* Text styles */
+    font-size: 4em;
+
+    /* Margins */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    margin-right: 920;
+}
+.hero h2{
+    font-size: 2em;
+
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.hero .btn {
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* Padding and margins */
+    padding: 1em;
+    margin-top: 50px;    
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: #d64214;;
+    text-decoration: none;
+    font-size: 1.5em;
+
+    /* Border styles */
+    border: 3px solid #0000;
+    border-radius: 20px;
+
+    /* Background styles */
+    background-color: #000000;
+}
