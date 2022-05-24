@@ -1,8 +1,33 @@
+header img {
+    height: 80px;
+    background-color: #000000;
+}
+
 body {
+    height: 125vh;
+    background-image: url((C:\Users\vctrf\Desktop\myWebPage\myWebPage\images\Victor_logo.png);
+    background-size: cover;
     margin: 0;
+    margin-top: 80px;
     font-family: sans-serif;
 }
+
+main {
+    color: white;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
 .hero {
+    position: static;
+    
     /* Sizing */
     width: 100vw;
     height: 100vh;
@@ -26,13 +51,13 @@ body {
 
 .hero h1 {
     /* Text styles */
-    font-size: 4em;
+    font-size: 5em;
 
     /* Margins */
     margin-top: 0px;
     margin-bottom: 0px;
     margin-left: 60px;
-    margin-right: 920;
+    margin-right: 20;
 }
 .hero h2{
     font-size: 2em;
